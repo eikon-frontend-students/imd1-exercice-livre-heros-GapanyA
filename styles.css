@@ -1,10 +1,75 @@
+/* 🦊 Compléter les styles de votre teaser  */
+
 body {
   background-color: #1a1a1a;
   color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
+.teaser {
+  max-width: 600px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  border: 1px solid #00ff00;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #2a2a2a;
+  box-shadow: 0 4px 6px 000 (0, 0, 0, 0.1);
+}
 a {
-  color: white;
+  text-decoration: none;
+  text-emphasis-color: none;
+  color: #0f0;
+}
+img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 4px;
 }
 
-/* 🦊 Compléter les styles de votre teaser  */
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.titre {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #0f0;
+  text-shadow: 0 0 20px #0f0;
+}
+
+.accroche {
+  font-size: 18px;
+  font-style: italic;
+  margin: 10px 0;
+  color: #567d59;
+}
+
+.auteur {
+  font-size: 16px;
+  margin: 0;
+  color: #435d49;
+}
+.teaser:hover {
+  border-color: #ff00ff;
+
+  a {
+    color: #ff00ff;
+    text-shadow: 0 0 20px #ff00ff;
+  }
+  .accroche {
+    color: #8e5a8e;
+  }
+  .auteur {
+    color: #6d486d;
+  }
+}
