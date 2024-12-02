@@ -13,6 +13,7 @@ body {
 
 .teaser {
   max-width: 600px;
+  flex-direction: row;
   display: flex;
   align-items: center;
   border: 1px solid #00ff00;
